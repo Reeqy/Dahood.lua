@@ -15,6 +15,7 @@ local Dahood = Instance.new("TextButton")
 local Universal = Instance.new("TextButton")
 local PrisonLife = Instance.new("TextButton")
 local Jailbreak = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
 
 
 
@@ -121,13 +122,23 @@ end)
 
 
 
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScrollingFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.341625214, 0, 0.0773480684, 0)
+Arsenal.Size = UDim2.new(0, 187, 0, 50)
+Arsenal.Font = Enum.Font.GothamBlack
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
 
 
 
 
 
-
-
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Reeqy/Dahood.lua/main/Arsenal.lua"))()
+end)
 
 
 
