@@ -26,8 +26,11 @@ Maintab:Button("Phantom Forces Aimbot", "This function may not work sometimes an
 end)
 
 
+Maintab:Button("Silent Aimbot", "This function may not work sometimes and you can get Kicked.", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/strawhook/main/script.lua", true))()
 
-
+    Flux:Notification("Loading..", "Alright")
+end)
 
 
 
