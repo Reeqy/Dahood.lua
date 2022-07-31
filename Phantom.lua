@@ -19,11 +19,7 @@ local Maintab = win:Tab("Phantom Forces", "http://www.roblox.com/asset/?id=60234
 
 
 
-Maintab:Button("Phantom Forces Aimbot", "This function may not work sometimes and you can get Kicked.", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Herrtt/Phantom-Forces-Cheat/main/Main.lua", true))()
 
-    Flux:Notification("Loading..", "Alright")
-end)
 
 
 Maintab:Button("Silent Aimbot", "This function may not work sometimes and you can get Kicked.", function()
